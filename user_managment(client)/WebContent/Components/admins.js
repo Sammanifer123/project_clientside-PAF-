@@ -73,19 +73,19 @@ $(document).on("click", "#btnSave", function(event)
 		// CLIENT-MODEL================================================================
 		function validateAdminForm() 
 		{ 
-			// CODE
+			// name
 			if ($("#Name").val().trim() == "") 
 			 { 
 			 	return "Insert name."; 
 			 } 
 			 
-			// NAME
+			// age
 			if ($("#Age").val().trim() == "") 
 			 { 
 			 	return "Insert age."; 
 			 }
 			 
-			 // PRICE-------------------------------
+			 // email-------------------------------
 			if ($("#Email").val().trim() == "") 
 			 { 
 			 	return "Insert email."; 
